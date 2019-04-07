@@ -32,6 +32,12 @@ class Airline
     end
   end
 
+  def airports
+    my_flights.map do |flight|
+      flight.airport.name
+    end
+  end
+
   # CLASS METHODS
   def self.all
     @@all
