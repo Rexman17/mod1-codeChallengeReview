@@ -26,7 +26,7 @@ We've provided you with a console that you can use to test your code. To enter a
 - `Airline#acquisition`
   - given a string of a **ceo** and a string of a **name**, change the ceo and name of the airline
 - `Airline#airports`
-  - returns an array of all of the airports that have flights with this airline
+  - returns an array of the NAMES of the airports that have flights with this airline
 
 
 - `Airline.all`
