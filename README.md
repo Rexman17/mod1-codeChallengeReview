@@ -41,8 +41,8 @@ We've provided you with a console that you can use to test your code. To enter a
 - `Airport#name`
   - returns a **string** that is the airport's name
 - `Airport#cost_to_build`
-  - returns a **number** that was the cost to build this aiport
--`Airport#dog_friendly`
+  - returns a **number** that was the cost to build this airport
+- `Airport#dog_friendly`
 - returns a **boolean** that represents whether the airport is dog friendly or not (if it's not, then I will never go to this airport k bye)
 
 - `Airport.all`
