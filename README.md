@@ -24,7 +24,7 @@ We've provided you with a console that you can use to test your code. To enter a
 - `Airline#founding_year`
   - returns a **string** that is the airlines's founding year. This value cannot be reassigned.
 - `Airline#acquisition`
-  - given a string of a **ceo** and a string of a **name**, change the ceo and name of the startup
+  - given a string of a **ceo** and a string of a **name**, change the ceo and name of the airline
 - `Airline#airports`
   - returns an array of all of the airports that have flights with this airline
 
@@ -41,12 +41,12 @@ We've provided you with a console that you can use to test your code. To enter a
 - `Airport#name`
   - returns a **string** that is the airport's name
 - `Airport#cost_to_build`
-  - returns a **number** that is the total worth of this investor (e.g., think of it as how much money they have)
+  - returns a **number** that was the cost to build this aiport
 -`Airport#dog_friendly`
 - returns a **boolean** that represents whether the airport is dog friendly or not (if it's not, then I will never go to this airport k bye)
 
 - `Airport.all`
-  - returns an array of all venture capitalists
+  - returns an array of all airports
 - `Airport.love_doggos`
   - returns an array of all the airports that are dog friendly
 - `Airport.most_expensive`
@@ -57,14 +57,14 @@ We've provided you with a console that you can use to test your code. To enter a
 #### Build out the following methods on the `Flight` class
 
 - `Flight#airline`
-  - returns the startup object for that given funding round
-  - Once a funding round is created, I should not be able to change the airline
+  - returns the airline object for that given funding round
+  - Once a flight is created, I should not be able to change the airline
 - `Flight#airport`
-  - returns the venture capitalist object for that given funding round
-  - Once a funding round is created, I should not be able to change the airport
+  - returns the airport object for that given funding round
+  - Once a flight  is created, I should not be able to change the airport
 - `Flight#origin`
   - returns a **string** that is the city from which the flight leaves
- Series C, etc.
+
 - `Flight#destination`
   - returns a **string** that is the city where the flight lands
 
